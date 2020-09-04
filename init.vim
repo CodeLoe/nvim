@@ -62,9 +62,9 @@ filetype plugin indent on
 set encoding=utf-8
 let &t_ut=''
 set expandtab
-set tabstop=4
-set shiftwidth=4
-set softtabstop=4
+set tabstop=2
+set shiftwidth=2
+set softtabstop=2
 set list
 " set listchars=tab:▸\ ,trail:▫
 set scrolloff=5
