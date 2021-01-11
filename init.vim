@@ -53,6 +53,7 @@ nnoremap N Nzz
 nnoremap R :source $MYVIMRC<CR>
 
 inoremap jk <Esc>`^
+inoremap ff <Esc>la
 
 set nocompatible
 filetype on
@@ -187,7 +188,7 @@ nmap ga <Plug>(EasyAlign)
 " === coc.nvim
 " ===
 let g:python3_host_prog = '/Users/nchen/miniconda3/bin/python'
-let g:coc_global_extensions = ['coc-python', 'coc-vimlsp', 'coc-json', 'coc-pyright', 'coc-translator', 'coc-snippets']
+let g:coc_global_extensions = ['coc-python', 'coc-vimlsp', 'coc-json', 'coc-pyright', 'coc-snippets']
 set hidden
 set updatetime=100
 set shortmess+=c
